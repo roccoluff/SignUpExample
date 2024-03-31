@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/Users/roccoluffarelli/Library/Fonts/Norse-Bold.otf">
+    
+    <title>Project Form</title>
+</head>
+<body>
+    <div class="left-container">
+        <h1>Palagonia</h1>
+    </div>
+    <div class="both-right">
+    <div class="right-container">
+        <h2>
+            Welcome to Costa Rica!
+        </h2>
+        <p id="entry-text">
+            This is a beautiful example website for Costa Rica!
+            <br>
+            It is one of the most <em>beautiful</em> countries 
+            in the world! 
+            <br>
+            <br>
+            Sign up to win a free trip to Costa Rica!
+        </p>
+        <form action="#" method="get" id="form">
+            <div class="formrow">
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" id="firstname" placeholder="Max">
+            </div>
+            <div class="formrow">
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Mustermann">
+            </div>
+            <div class="formrow">
+                <label for="email">Email*</label>
+                <input type="email" name="email" id="email" required="required" placeholder="max@mustermann.de">
+            </div>
+            <div class="formrow">
+                <label for="phone">Phone number</label>
+                <input type="text" name="phone" id="phone" placeholder="+49 16099932000">
+            </div>
+            <div class="formrow">
+                <label for="password">Password*</label>
+                <input type="password" name="password" id="password" required="required" placeholder="NotPassword12345">
+            </div>
+            <div class="formrow">
+                <label for="confpassword">Confirm Password*</label>
+                <input type="password" name="confpassword" id="confpassword" required="required" placeholder="Confirm secure password">
+            </div>
+        </form>
+    </div>
+    <div class="right-container2">
+        <button class="btn-submit" form="form">
+            Create Account
+        </button>
+        <p>
+            Already have an Account? <a href="#" id="log-in">Log in</a>
+        </p>
+    </div>
+    </div>
+</body>
+</html>
